@@ -31,7 +31,7 @@ Stacking complete guide:
 model | Public LB | Date | Script
 --- | --- | --- | ---
 Xgboost ICA PCA TSVD GRP SRP Stack Optimisation | 0.57323 | 24th June 2017 | [Script 7](https://github.com/satacroteam/Mercedes-Benz-Greener-Manufacturing/blob/master/SCRIPT/script_7.py)
-Xgboost ICA PCA TSVD GRP SRP Stack | 0.57066 | 12th June 2017 | [Script 6](https://github.com/satacroteam/les-jeunes/blob/master/SCRIPT/script_6py)
+Xgboost ICA PCA TSVD GRP SRP Stack | 0.57066 | 12th June 2017 | [Stacked_method](https://github.com/OrhanYaz/Kaggle_mercedes_benz_challenge/blob/master/Stacked_method.py)
 Xgboost ICA PCA TSVD GRP SRP | 0.56784 | 10th June 2017 | [Script_056784](https://github.com/OrhanYaz/Kaggle_mercedes_benz_challenge/blob/master/script_056784.py)
 
 ## Private Leader Board
