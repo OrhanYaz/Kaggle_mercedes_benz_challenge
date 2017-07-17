@@ -114,6 +114,7 @@ for i in range(1, n_comp + 1):
 y_train = train['y'].values
 y_mean = np.mean(y_train)
 id_test = test['ID'].values
+
 # finaltrainset and finaltestset are data to be used only the stacked model (does not contain PCA, SVD... arrays)
 finaltrainset = train[usable_columns].values
 finaltestset = test[usable_columns].values
@@ -141,20 +142,6 @@ model = xgb.train(dict(xgb_params, silent=0), dtrain, num_boost_round=num_boost_
 y_pred = model.predict(dtest)
 
 '''Train the stacked models then predict the test data'''
-
-#stacked_pipeline = make_pipeline(
-    #StackingEstimator(estimator=LassoLarsCV(normalize=True)),
-    #StackingEstimator(
-        #estimator=GradientBoostingRegressor(learning_rate=0.00905, loss="huber", max_depth=6, max_features=0.69,
-                                            #min_samples_leaf=16, min_samples_split=14, subsample=0.8)),
-    #LassoLarsCV()
-
-#)
-
-#stacked_pipeline.fit(finaltrainset, y_train)
-#results = stacked_pipeline.predict(finaltestset)
-
-
 
 exported_pipeline = make_pipeline(
     StackingEstimator(estimator=LassoLarsCV(normalize=True)),
