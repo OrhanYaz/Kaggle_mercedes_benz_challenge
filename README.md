@@ -1,6 +1,6 @@
 # Kaggle_mercedes_benz_challenge
 
-![](http://www.mercedes-benz.co.uk/content/media_library/hq/hq_mpc_reference_site/passenger_cars_ng/new_cars/amg/12-2013/about_amg/development/mercedes-benz_amg_aboutamg_Entwicklung_buehnenbild_01_740x295_12-2013_jpg.object-Single-MEDIA.tmp/mercedes-benz_amg_aboutamg_Entwicklung_buehnenbild_01_740x295_12-2013.jpg)
+![](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiM_IGM4NbgAhWE1eAKHQ3pALYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.fiveauction.fr%2Fmarques%2FMercedes-Benz&psig=AOvVaw1PO1-uo7KHtMTe1DhnBaBh&ust=1551179462440293)
 
 https://www.kaggle.com/c/mercedes-benz-greener-manufacturing
 
