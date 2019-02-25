@@ -1,6 +1,6 @@
 # Kaggle_mercedes_benz_challenge
 
-![](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiM_IGM4NbgAhWE1eAKHQ3pALYQjRx6BAgBEAU&url=https%3A%2F%2Fwww.fiveauction.fr%2Fmarques%2FMercedes-Benz&psig=AOvVaw1PO1-uo7KHtMTe1DhnBaBh&ust=1551179462440293)
+![](https://www.fiveauction.fr/var/www/storage/images/mediatheque/fiveauction/images/mercedes-benz-d-occasion/1419428-1-fre-FR/Mercedes-Benz-d-occasion_image_page_search_filter.png)
 
 https://www.kaggle.com/c/mercedes-benz-greener-manufacturing
 
