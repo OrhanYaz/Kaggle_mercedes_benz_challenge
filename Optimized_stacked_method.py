@@ -148,9 +148,7 @@ exported_pipeline = make_pipeline(
     StackingEstimator(
         estimator=GradientBoostingRegressor(learning_rate=0.00900000000000005, loss="huber", max_depth=6, max_features=0.69000000000000005,
                                             min_samples_leaf=16, min_samples_split=14, subsample=0.8000000000001)),
-    DecisionTreeRegressor(max_depth=4, min_samples_leaf=6, min_samples_split=13),
-    LassoLarsCV()
-
+    StackingEstimator(DecisionTreeRegressor(max_depth=4, min_samples_leaf=6, min_samples_split=13))
 )
 
 exported_pipeline.fit(finaltrainset, y_train)
